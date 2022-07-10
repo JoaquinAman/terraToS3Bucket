@@ -11,6 +11,6 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "VPCTerraformjoaquin1"
+    Name = "VPCTerraformjoaquin"
   }
 }
