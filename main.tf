@@ -1,4 +1,4 @@
-resource "aws_ecs_cluster" "cluster" {
+resource "aws_ecs_cluster" "clusterJoaquin" {
   name = "${var.project}-${var.environment}"
   setting {
     name  = "containerInsights"
